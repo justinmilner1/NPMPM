@@ -1,0 +1,42 @@
+[
+    {
+        "name": "package_1",
+        "version": "1",
+        "dependencies": {}
+    },
+    {
+        "name": "package_1",
+        "version": "2",
+        "dependencies": {}
+    },
+    {
+        "name": "package_2",
+        "version": "1",
+        "dependencies": {
+            "package_1": {
+                "version": "1"
+            }
+        }
+    },
+    {
+        "name": "package_2",
+        "version": "2",
+        "dependencies": {
+            "package_1": {
+                "version": "2"
+            }
+        }
+    },
+    {
+        "name": "package_3",
+        "version": "1",
+        "dependencies": {
+            "package_2": {
+                "version": "1"
+            },
+            "package_1": {
+                "version": "1"
+            }
+        }
+    }
+]
