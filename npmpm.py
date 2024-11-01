@@ -4,6 +4,8 @@ import argparse
 import add
 import install
 
+super_duper_secret = "2372839uoegfqweoir812931asdf"
+
 add_object = add.Add("dependency_lookup.json")
 
 install_object = install.Install()
@@ -37,8 +39,6 @@ def get_args():
 
     return operation, package_name, version
 
-
-working_dir = os.getcwd()
 
 operation, package_name, version = get_args()
 

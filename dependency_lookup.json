@@ -10,6 +10,15 @@
         "dependencies": {}
     },
     {
+        "name": "package_1",
+        "version": "3",
+        "dependencies": {
+            "package_2": {
+                "version": "1"
+            }
+        }
+    },
+    {
         "name": "package_2",
         "version": "1",
         "dependencies": {
